@@ -1,0 +1,66 @@
+.register-content {
+    width: 50%;
+}
+
+.register-form__item {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.form__item-label {
+    color: #4b4b4b;
+}
+
+.form__item-label-required {
+    margin-left: 10px;
+    padding: 5px 0;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #FD0707;
+    color: #fff;
+    font-size: 12px;
+}
+
+.form__item-label-multipul {
+    color: #FD0707;
+    font-size: 12px;
+}
+
+.form__item-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #E0DFDE;
+}
+
+.button-wrapper {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.link__button {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 13px 10px;
+    width: 200px;
+    border-radius: 5px;
+    color:#4b4b4b;
+    background-color: #E0DFDE;
+}
+
+.register__button {
+    margin: 0 5px;
+    width: 200px;
+}
+
+.register__button-submit {
+    padding: 13px 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: #4b4b4b;
+    background-color: #F5C800;
+}

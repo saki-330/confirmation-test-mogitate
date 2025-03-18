@@ -41,5 +41,18 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="detail-descriptopn">
+            <div class="detail-form__description">
+                <p class="form__item-label">商品説明</p>
+                <textarea name="description" cols="40" rows="5">{{ old('description') }}</textarea>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <a class="link__button" href="/products">戻る</a>
+            <div class="update__button">
+                <button class="update__button-submit" type="submit">変更を保存</button>
+            </div>
+        </div>
 @endsection
